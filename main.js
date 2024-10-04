@@ -2,25 +2,7 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import {
-  arrayFrom,
-  arrayAt,
-  arrayConcat,
-  arrayEvery,
-  arrayFilter,
-  arrayFind,
-  arrayFindIndex,
-  arrayForEach,
-  arrayJoin,
-  arrayMap,
-  arrayPop,
-  arrayReduce,
-  arrayShift,
-  arraySlice,
-  arraySort,
-  arraySplice,
-  arrayUnshift,
-} from "./array.js";
+
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -40,20 +22,3 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
-// arrayFrom();
-arrayAt();
-arrayConcat();
-arrayEvery();
-arrayFilter();
-arrayFind();
-arrayFindIndex();
-arrayForEach();
-arrayJoin();
-arrayMap();
-arrayPop();
-arrayReduce();
-arrayShift();
-arraySlice();
-arraySort();
-arraySplice();
-arrayUnshift();
