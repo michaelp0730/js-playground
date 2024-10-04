@@ -5,6 +5,21 @@ import { setupCounter } from './counter.js'
 import {
   arrayFrom,
   arrayAt,
+  arrayConcat,
+  arrayEvery,
+  arrayFilter,
+  arrayFind,
+  arrayFindIndex,
+  arrayForEach,
+  arrayJoin,
+  arrayMap,
+  arrayPop,
+  arrayReduce,
+  arrayShift,
+  arraySlice,
+  arraySort,
+  arraySplice,
+  arrayUnshift,
 } from "./array.js";
 
 document.querySelector('#app').innerHTML = `
@@ -20,10 +35,25 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">Click on the Vite logo to learn more</p>
-    <p>Open the browser console to view the console output from each JS function</p>
+    <p>Open the browser console to view the output from each JS function</p>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
 // arrayFrom();
 arrayAt();
+arrayConcat();
+arrayEvery();
+arrayFilter();
+arrayFind();
+arrayFindIndex();
+arrayForEach();
+arrayJoin();
+arrayMap();
+arrayPop();
+arrayReduce();
+arrayShift();
+arraySlice();
+arraySort();
+arraySplice();
+arrayUnshift();
