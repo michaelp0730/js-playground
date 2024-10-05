@@ -6,5 +6,8 @@ document.querySelector('#header-main').innerHTML = `
     <li>
       <a href="./array.html">Array</a>
     </li>
+    <li>
+      <a href="./object.html">Object</a>
+    </li>
   </ul>
 `
