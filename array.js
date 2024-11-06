@@ -17,7 +17,7 @@ import {
     arraySort,
     arraySplice,
     arrayUnshift,
-  } from "./arrayFunctions.js";
+} from "./arrayFunctions.js";
 
 document.querySelector('#app').innerHTML = `
   <div>

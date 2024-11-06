@@ -1,6 +1,6 @@
 export function objectAssign() {
-    const target = { a: 1, b: 2 };
-    const source = { b: 4, c: 5 };
+    const target = {a: 1, b: 2};
+    const source = {b: 4, c: 5};
     console.log('objectAssign target: ', target);
     console.log('objectAssign source: ', source);
     const returnedTarget = Object.assign(target, source);
@@ -40,7 +40,7 @@ export function objectIs() {
     console.log('objectIs 1, "1": ', Object.is(1, '1'));
     console.log('objectIs NaN, NaN: ', Object.is(NaN, NaN));
     console.log('objectIs 0, -0: ', Object.is(0, -0));
-    console.log('objectIs [1,2], [1,2]: ', Object.is([1,2], [1,2]));
+    console.log('objectIs [1,2], [1,2]: ', Object.is([1, 2], [1, 2]));
     console.log('objectIs "yes", "yes": ', Object.is("yes", "yes"));
 }
 
